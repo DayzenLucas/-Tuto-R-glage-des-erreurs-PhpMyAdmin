@@ -53,3 +53,21 @@ list($order_link, $sorted_header_html)
     );
 ```
 Voila nous avons régler les erreurs PHPmyadmin 
+
+
+MISE à JOUR POUR PHP 7.4
+
+Merci d'ajouter les dépots et installer les dépots
+
+Régler les erreurs PHPMYADMIN pour php7.4
+Pour finaliser le tuto de la versions antérieur de comment régler ses erreurs phpmyadmin
+```
+sudo add-apt-repository ppa:phpmyadmin/ppa
+
+sudo apt update
+
+sudo apt upgrade
+
+sudo systemctl restart apache2
+```
+Voila les erreurs doivent maintenant avoir disparues :D
